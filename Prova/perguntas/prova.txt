@@ -12,7 +12,7 @@ Ela deve ficar dentro do <head> do HTML, Exemplo:
 
 
 2 - Demonstre e explique o evento hover.
-Aplica estilo quando o mouse passa sobre o botão
+Ele aplica estilo quando o mouse passa sobre o botão.
 Exemplo:
 button:hover {
     background-color: green; /* muda a cor de fundo */
@@ -41,3 +41,4 @@ div { width:50px; height:50px; background:blue; margin:5px; }
   <div></div>
 </body>
 </html>
+
