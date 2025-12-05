@@ -1,0 +1,99 @@
+/* Geral */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container centralizado */
+.container {
+  width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+/* Títulos */
+h2 {
+  text-align: center;
+  color: #005f99; /* azul escuro */
+  margin-bottom: 10px;
+}
+h3 {
+  color: #ff6600; /* laranja */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  transition: border 0.3s;
+}
+input:focus {
+  border-color: #005f99;
+  outline: none;
+}
+
+/* Botões */
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+.criar {
+  background: #005f99; /* azul */
+}
+.criar:hover {
+  background: #004466;
+}
+
+.depositar {
+  background: #00bfff; /* azul claro */
+}
+.depositar:hover {
+  background: #0099cc;
+}
+
+.sacar {
+  background: #ff6600; /* laranja */
+}
+.sacar:hover {
+  background: #e65500;
+}
+
+.emprestimo {
+  background: #ff9933; /* laranja claro */
+}
+.emprestimo:hover {
+  background: #e68000;
+}
+
+/* Caixa de informações */
+.info {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border-left: 5px solid #005f99;
+}
+
+.info p {
+  margin: 6px 0;
+}

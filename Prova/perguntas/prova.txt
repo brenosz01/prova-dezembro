@@ -1,0 +1,43 @@
+1 - Qual tag HTML pra juntar o CSS?
+A tag HTML usada para linkar um arquivo CSS é a <link>.
+Ela deve ficar dentro do <head> do HTML, Exemplo:
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+------------------------------------------------------------------
+
+
+2 - Demonstre e explique o evento hover.
+Aplica estilo quando o mouse passa sobre o botão
+Exemplo:
+button:hover {
+    background-color: green; /* muda a cor de fundo */
+}
+
+<button>Clique Aqui</button>
+
+</body>
+</html>
+
+
+-------------------------------------------------------------------
+
+
+3 - Centralize 2 divs no meio da tela.
+Código:
+<html>
+<head>
+<style>
+body { margin:0; height:100vh; display:flex; justify-content:center; align-items:center; }
+div { width:50px; height:50px; background:blue; margin:5px; }
+</style>
+</head>
+<body>
+  <div></div>
+  <div></div>
+</body>
+</html>

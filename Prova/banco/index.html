@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Banco Senacredit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Banco Senacredit</h2>
+    <h3>Criar Conta</h3>
+    <input id="nome" placeholder="Seu nome">
+    <button class="btn criar" onclick="criarConta()">Criar Conta</button>
+    
+    <hr>
+    
+    <h3>Operações</h3>
+    <input id="valor" type="number" placeholder="Valor">
+    <button class="btn depositar" onclick="depositar()">Depositar (7%)</button>
+    <button class="btn sacar" onclick="sacar()">Sacar (10%)</button>
+    <button class="btn emprestimo" onclick="emprestimo()">Pedir Empréstimo (5x)</button>
+    
+    <div class="info">
+      <p><b>Cliente:</b> <span id="cliente">Nenhum</span></p>
+      <p><b>Saldo:</b> R$ <span id="saldo">0.00</span></p>
+      <p><b>Dívida:</b> R$ <span id="divida">0.00</span></p>
+      <p><b>Parcelas:</b> <span id="parcelas">0</span></p>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
